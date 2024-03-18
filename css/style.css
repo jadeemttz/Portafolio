@@ -11,11 +11,11 @@ body{
     align-content: center;
     background-position: center center;
 }
-h1{ font-size: 2.5em;
+h1{ font-size: 2em;
     font-weight: regular;
     text-align: center;
     }
-h2{ font-size: 2em;}
+h2{ font-size: 1.5em;}
 #sub1, #sub2, #sub3{
     display:inline
 }
