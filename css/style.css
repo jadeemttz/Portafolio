@@ -1,0 +1,202 @@
+*{
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Century gothic', sans-serif;
+    background-color: #F3EFFE;
+    align-content: center;
+    background-position: center center;
+}
+h1{ font-size: 2.5em;
+    font-weight: regular;
+    text-align: center;
+    }
+h2{ font-size: 2em;}
+#sub1, #sub2, #sub3{
+    display:inline
+}
+#b1,#b2,#b3{
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 20px 35px;
+    border-radius: 30px;
+    border: 0px solid ;
+    color: rgb(255, 255, 255);
+    background-color: #c8a0f1;
+}
+#b1:hover,#b2:hover,#b3:hover{
+    background-color:#868DB7 ;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+#part1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:40vh;
+    background-color: #DDD6F8;
+    border-radius: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
+#traka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:15vh;
+    background-color: #99a2ddd3;
+    border-radius: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#traka .container{
+    padding: 200px 12px;
+
+}
+#p1{
+    text-align: center;
+    font-size: 2.5em;
+    background-size: cover;
+    background-position: center center;
+}
+.c{color: #843ace;}
+#select{
+    background-color: #8093ff1f;
+    align-content: center;
+}
+#select .carta{
+    padding: 50px, 0px;
+    align-items: center;
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: auto;
+    margin: auto;
+    margin-top: 40px;
+}
+#select .container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-flexbox;
+}
+.carta:first-child, .carta:nth-last-child(2), .carta:last-child{
+    display: inline;
+}
+#no{
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    background-color: #868DB7;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#selectra{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+
+}
+#titulotrabajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:20vh;
+    background-color: #99a2ddd3;
+    border-radius: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: auto;
+}
+
+
+#WPDD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:20vh;
+    background-color: #DDD6F8;
+    border-radius: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: auto;
+ }
+
+#formm{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:20vh;
+    background-color: #DDD6F8;
+    border-radius: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: auto;
+  }
+#exmm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:20vh;
+    background-color: #DDD6F8;
+    border-radius: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: auto;
+ }
+#jo,#jojo,#jojojo{
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0px solid ;
+    color: rgb(255, 255, 255);
+    background-color: #c8a0f1;
+    margin: auto;
+    display: flex;
+    padding: 20px 100px;
+
+}
+#jo:hover,#jojo:hover,#jojojo:hover{
+    background-color:#868DB7 ;
+}
+#anuel{
+    background-color:rgba(233, 190, 255, 0.222) ;
+}
+footer{
+    justify-content: center;
+    display: flex;
+    background-color: #c8a0f128;
+    background-size: cover;
+    background-position: center, center;
+}
