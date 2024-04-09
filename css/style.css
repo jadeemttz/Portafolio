@@ -174,7 +174,7 @@ h2{ font-size: 1.5em;}
     background-position: center center;
     margin-bottom: auto;
  }
-#jo,#jojo,#jojojo{
+#jo,#jojo,#jojojo, #wtf{
     justify-content: center;
     font-size: 2em;
     font-weight: bold;
@@ -187,7 +187,7 @@ h2{ font-size: 1.5em;}
     padding: 20px 100px;
 
 }
-#jo:hover,#jojo:hover,#jojojo:hover{
+#jo:hover,#jojo:hover,#jojojo:hover, #wtf:hover{
     background-color:#868DB7 ;
 }
 #anuel{
